@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="my">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>WIN Clothing Collection | လက်ကားဈေးနှုန်း</title>
+<meta name="description" content="WIN Clothing Collection လက်ကားသီးသန့် အထည်အဆင်သင့်နှင့် မှာယူချုပ်ပေးသော အထည်များ။ အနည်းဆုံး ၆ ထည်မှစ၍။">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%A7%B5%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar:wght@400;600;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  color-scheme:light dark;
+  --bg:#F5F6FA;--surface:#FFFFFF;--ink:#141A3C;--muted:#555C7E;--line:#D3D8E8;
+  --brand:#1F2A6B;--brand-ink:#FFFFFF;--accent:#C8372D;--tint:#E8EBF7;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#0E1230;--surface:#171C42;--ink:#EEF0FA;--muted:#A3A9C9;--line:#2C3363;
+  --brand:#9AA8FF;--brand-ink:#0E1230;--accent:#FF8478;--tint:#20275A;}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font-family:"Noto Sans Myanmar","Myanmar Text","Pyidaungsu",system-ui,sans-serif;
+  line-height:1.8;font-size:16px;
+  padding:env(safe-area-inset-top,0) env(safe-area-inset-right,0) env(safe-area-inset-bottom,0) env(safe-area-inset-left,0)}
+.wrap{max-width:960px;margin:0 auto;padding:0 18px}
+header{border-bottom:1px solid var(--line);background:var(--surface)}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:12px;padding-top:12px;padding-bottom:12px;flex-wrap:wrap}
+.brand{font-weight:800;font-size:1.05rem;letter-spacing:.01em}
+.btn{display:inline-block;padding:8px 18px;border-radius:8px;border:2px solid var(--brand);
+  background:var(--brand);color:var(--brand-ink);font:inherit;font-weight:600;text-decoration:none;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--brand)}
+.btn:focus-visible,.tab:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.nav{display:flex;gap:8px}
+h1{font-size:clamp(1.6rem,6vw,2.4rem);line-height:1.5;margin:34px 0 8px;font-weight:800}
+.lead{color:var(--muted);margin:0 0 26px;max-width:60ch}
+/* tape-measure price ladder */
+.tape{margin:0 0 10px}
+.ruler{height:16px;background:repeating-linear-gradient(90deg,var(--ink) 0 2px,transparent 2px 10px);opacity:.45;border-radius:2px}
+.steps{display:grid;grid-template-columns:repeat(4,1fr)}
+.step{padding:10px 8px 0 0;border-left:3px solid var(--accent);padding-left:10px;margin-top:-4px}
+.step b{display:block;font-size:clamp(1.5rem,7vw,2.3rem);line-height:1.2;font-weight:800}
+.step span{display:block;font-size:.8rem;color:var(--muted);line-height:1.6}
+.note{background:var(--tint);border-radius:8px;padding:12px 16px;margin:18px 0 0;font-size:.95rem}
+.tabs{display:flex;gap:8px;margin:34px 0 18px;flex-wrap:wrap}
+.tab{padding:7px 16px;border-radius:999px;border:1.5px solid var(--line);background:var(--surface);color:var(--ink);font:inherit;cursor:pointer}
+.tab[aria-pressed="true"]{background:var(--brand);color:var(--brand-ink);border-color:var(--brand)}
+.grid{display:grid;gap:16px;grid-template-columns:1fr}
+@media(min-width:760px){.grid{grid-template-columns:1fr 1fr}.step b{font-size:2.3rem}}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:16px}
+.card h2{font-size:1.05rem;margin:0 0 4px;line-height:1.6}
+.badge{display:inline-block;font-size:.8rem;padding:1px 10px;border-radius:999px;background:var(--tint);margin-bottom:10px;font-weight:600}
+.badge.pre{background:transparent;border:1.5px solid var(--accent);color:var(--accent)}
+.sc{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:.92rem}
+th,td{padding:6px 8px;text-align:right;border-bottom:1px solid var(--line);white-space:nowrap}
+th:first-child,td:first-child{text-align:left;font-weight:600}
+th{font-size:.78rem;color:var(--muted);font-weight:600;line-height:1.5}
+tr:last-child td{border-bottom:0}
+.cta{margin:40px 0 0;padding:24px 20px;background:var(--brand);color:var(--brand-ink);border-radius:12px}
+.cta h2{margin:0 0 6px;font-size:1.25rem}
+.cta p{margin:0 0 16px}
+.cta .btn{background:var(--brand-ink);color:var(--brand);border-color:var(--brand-ink)}
+.cta .btn.ghost{background:transparent;color:var(--brand-ink)}
+footer{padding:28px 0 36px;color:var(--muted);font-size:.85rem}
+[hidden]{display:none!important}
+</style>
+</head>
+<body>
+<header><div class="wrap">
+  <div class="brand">WIN Clothing Collection</div>
+  <nav class="nav" aria-label="ဆက်သွယ်ရန်">
+    <a class="btn ghost" data-link="fb" href="#order">Facebook</a>
+    <a class="btn" data-link="tg" href="#order">Telegram</a>
+  </nav>
+</div></header>
+
+<main class="wrap">
+  <h1>လက်ကားသီးသန့် အထည်များ</h1>
+  <p class="lead">အနည်းဆုံး ၆ ထည်မှစ၍ ရောင်းချပါတယ်။ ယူတဲ့ထည်ရေများလေ တစ်ထည်ဈေး သက်သာလေ ဖြစ်ပါတယ်။</p>
+
+  <section class="tape" aria-label="ထည်ရေအလိုက် ဈေးအဆင့်">
+    <div class="ruler" aria-hidden="true"></div>
+    <div class="steps">
+      <div class="step"><b>6</b><span>ဈေးအဆင့် ၁<br>၆–၅၉ ထည်</span></div>
+      <div class="step"><b>60</b><span>ဈေးအဆင့် ၂<br>၆၀–၁၉၉ ထည်</span></div>
+      <div class="step"><b>200</b><span>ဈေးအဆင့် ၃<br>၂၀၀–၅၀၀ ထည်</span></div>
+      <div class="step"><b>500+</b><span>ဆိုင်ရှင်က တိုက်ရိုက် ဆက်သွယ်ပေးပါတယ်</span></div>
+    </div>
+  </section>
+  <p class="note">ပစ္စည်းတူရင် Size မတူလည်း ထည်ရေပေါင်းပြီး ဈေးအဆင့် တွက်ပေးပါတယ်။ ဥပမာ ချည်ကွက် L ၄၀ ထည်နဲ့ XL ၃၀ ထည်ဆို စုစုပေါင်း ၇၀ ထည်အတွက် အဆင့် ၂ ဈေးပါ။</p>
+
+  <div class="tabs" role="group" aria-label="အမျိုးအစား ရွေးရန်">
+    <button class="tab" data-f="all" aria-pressed="true">အားလုံး</button>
+    <button class="tab" data-f="ready" aria-pressed="false">အသင့်ရောင်း</button>
+    <button class="tab" data-f="pre" aria-pressed="false">မှာယူချုပ် (၃ ရက်)</button>
+  </div>
+
+  <div class="grid" id="list"></div>
+
+  <section class="cta" id="order">
+    <h2>မှာယူရန်</h2>
+    <p>ပစ္စည်းအမည်၊ Size နဲ့ ထည်ရေကို ပို့ပေးပါ။ ဈေးနှုန်းနဲ့ လက်ကျန်ကို ပြန်အကြောင်းကြားပါမယ်။</p>
+    <a class="btn" data-link="fb" href="#order">Facebook မှာ မေးမယ်</a>
+    <a class="btn ghost" data-link="tg" href="#order">Telegram မှာ မေးမယ်</a>
+  </section>
+</main>
+
+<footer><div class="wrap">WIN Clothing Collection. ဈေးနှုန်းများ ပြောင်းလဲနိုင်ပါတယ်။</div></footer>
+
+<script>
+// ဒီနေရာမှာ ကိုယ့်ဆိုင်ရဲ့ လင့်ခ်တွေ ထည့်ပါ
+const LINKS = {
+  fb: "https://www.facebook.com/YOUR_PAGE",
+  tg: "https://t.me/YOUR_BOT"
+};
+
+// [Size, အဆင့်၁ (၆–၅၉), အဆင့်၂ (၆၀–၁၉၉), အဆင့်၃ (၂၀၀–၅၀၀)]
+const PRODUCTS = [
+ {n:"ဖလန်ထည် လက်ရှည် Grade A အသား",m:"ready",r:[["2XL",11000,10800,10500],["3XL",11200,11000,10800],["4XL",11400,11200,11000]]},
+ {n:"ချည်ကွက် လက်တို",m:"ready",r:[["L",8500,8300,8000],["XL",8700,8500,8200]]},
+ {n:"မဝတ်ချည်ထည် ဝမ်းဆက် အတို (Oneset)",m:"ready",r:[["L (42\")",12500,12200,12000],["XL (44\")",12700,12400,12200]]},
+ {n:"စပန့်သားရှပ် လက်တို အကျီ",m:"ready",r:[["L",8500,8300,8000],["XL",8700,8500,8200],["2XL",8900,8700,8500],["3XL",9100,8900,8700]]},
+ {n:"အကွက်စိတ် ရှပ်လက်တို",m:"pre",r:[["L",16500,16300,16000],["XL",17000,16800,16500],["2XL",17500,17300,17000],["3XL",18000,17800,17500]]},
+ {n:"ချည် (ပေါင်းသား) လက်တို",m:"pre",r:[["L",18000,17800,17500],["XL",18500,18300,18000],["2XL",19000,18800,18500],["3XL",19500,19300,19000]]},
+ {n:"ချည် (ပေါင်းသား) လက်ရှည်",m:"pre",r:[["L",22000,21800,21500],["XL",22500,22300,22000],["2XL",23000,22800,22500],["3XL",23500,23300,23000]]},
+ {n:"ချည် (ပေါင်းသား) ဘောင်းဘီတို ဒူးအတို (Jaw Pant)",m:"pre",r:[["L",11500,11300,11000],["XL",12000,11800,11500],["2XL",12500,12300,12000]]},
+ {n:"စပန့်သား Jersey",m:"pre",r:[["L",8500,8300,8000],["XL",8700,8500,8200],["2XL",8900,8700,8500]]}
+];
+
+const fmt = n => n.toLocaleString("en-US");
+const list = document.getElementById("list");
+
+function render(f){
+  list.innerHTML = PRODUCTS.filter(p => f==="all" || p.m===f).map(p => `
+    <article class="card">
+      <h2>${p.n}</h2>
+      <span class="badge ${p.m==="pre"?"pre":""}">${p.m==="pre"?"မှာယူချုပ်။ အော်ဒါတက်လာမှ ၃ ရက်အတွင်း ချုပ်ပေးပါတယ်":"အသင့်ရောင်း"}</span>
+      <div class="sc"><table>
+        <thead><tr><th>Size</th><th>၆–၅၉<br>ထည်</th><th>၆၀–၁၉၉<br>ထည်</th><th>၂၀၀–၅၀၀<br>ထည်</th></tr></thead>
+        <tbody>${p.r.map(x=>`<tr><td>${x[0]}</td><td>${fmt(x[1])}</td><td>${fmt(x[2])}</td><td>${fmt(x[3])}</td></tr>`).join("")}</tbody>
+      </table></div>
+      <div style="font-size:.78rem;color:var(--muted);margin-top:6px">တစ်ထည်ဈေး (ကျပ်)</div>
+    </article>`).join("");
+}
+document.querySelectorAll(".tab").forEach(b => b.addEventListener("click", () => {
+  document.querySelectorAll(".tab").forEach(t => t.setAttribute("aria-pressed", t===b));
+  render(b.dataset.f);
+}));
+document.querySelectorAll("[data-link]").forEach(a => {
+  const u = LINKS[a.dataset.link];
+  if(u && !u.includes("YOUR_")){ a.href = u; a.target = "_blank"; a.rel = "noopener"; }
+});
+render("all");
+</script>
+</body>
+</html>
